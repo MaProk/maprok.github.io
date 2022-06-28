@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+  
+  body {
+    font-family: 'Nunito', sans-serif;
+    color: #333333;
+    background-color: #FFE5D9;
+    margin: 0;
+    padding: 0;
+}
+  
+  img {
+    max-width: 100%;
+}
+  
+  h1 {
+	font-size: 24px;
+    margin: 40px;
+}
+
+p {
+	font-size: 18px;
+    line-height: 18px;
+    color: #333333;
+	margin-left: 40px;
+}
+	h2, h3 {
+	font-size: 22px;
+    line-height: 18px;
+    color: #333333;
+	margin-left: 40px;
+}
+
+  .container {
+    max-width: 1110px;
+    margin: 40px;
+}
+
+  .student_link {
+    align-items: center;
+    text-decoration: none;
+}
+
+  .photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+	margin-left: 40px;
+    object-fit: cover;
+	
+}
+
+  .main{
+      margin-top: 45px;
+    width: 100%;
+}
+ 
+  .lab__item{
+      padding: 15px;
+      background-color: white;
+      border-radius: 15px;
+}
+
+.lab-buttons{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lab-button{
+  min-width: 150px;
+  min-height: 40px;
+  padding: 8px;
+  color: #ffffff;
+  background-color: #4F517D;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 15px;
+}
+
+.lab_h{
+    text-align: center;
+    font-weight: 600;
+}
